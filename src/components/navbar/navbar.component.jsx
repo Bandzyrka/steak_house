@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { RiMenu3Line, RiMenuLine } from "react-icons/ri";
 
-import { logo, zamow, mojekonto, koszyk } from "./imports";
+import { logo, zamow, mojekonto, koszyk } from "../imports";
 
 import "./navbar.styles.scss";
 import { motion } from "framer-motion";

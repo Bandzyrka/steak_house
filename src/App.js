@@ -1,11 +1,12 @@
 import './App.scss';
-import { Navbar, Header } from './components/imports'
+import { Navbar, Header, Brands } from './components/imports'
 
 const App = () => {
   return (
     <div className="App">
       <Navbar />
       <Header />
+      <Brands />
     </div>
   );
 }

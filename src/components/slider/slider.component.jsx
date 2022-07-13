@@ -1,9 +1,9 @@
 /* eslint-disable jsx-a11y/alt-text */
 import React, { } from "react";
-import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
+import "react-responsive-carousel/lib/styles/carousel.min.css"; 
 
 import { Carousel } from 'react-responsive-carousel';
-import {slider1, slider2, slider3} from './imports'
+import {slider1} from '../imports'
 
 
 export const Slider = () =>  (
