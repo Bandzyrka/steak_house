@@ -62,7 +62,7 @@ export const Brands = () => {
     <div>
       <img src={bolt_food} alt="bolt_food" />
     </div> 
-  </Carousel>;
+  </Carousel>
     </>
     )
 }
