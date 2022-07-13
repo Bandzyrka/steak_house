@@ -1,0 +1,80 @@
+.header{
+    display: flex;
+    flex-direction: row;
+    width: 100vw;
+}
+
+.header-content{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    padding: 4rem 6rem;
+    width: 100%;
+    h1{
+        font-family: var(--font-family);
+        font-style: normal;
+        font-weight: 700;
+        font-size: 56px;
+        line-height: 65px;
+        text-align: left;
+        span{
+            background-color: black;
+            color: white;
+        }
+    }
+    p{
+        font-family: var(--font-secondary);
+        font-style: normal;
+        font-weight: 300;
+        font-size: 20px;
+        line-height: 25px;
+        color: #000000;
+        max-width: 400px;
+        margin-top: 2rem;
+        span{
+            font-weight: 600;
+        }
+    }
+}
+
+.header-content__input{
+    margin: 2rem 0 1rem;
+    button{
+        font-family: 'Sofia Pro';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14.4px;
+        line-height: 14px;
+        text-align: center;
+        color: #FFFFFF;
+        background: var(--color-accent);
+        padding: 0 1rem;
+        color: #fff;
+        cursor: pointer;
+        outline: none;
+        border-radius: 10px;
+        width: 204px;
+        height: 49px;
+        
+    }
+}
+
+.header-slider{
+    flex: 1.2;
+    display: flex;
+}
+
+@media screen and (max-width: 1340px){
+    .header{
+        flex-direction: column-reverse;
+    }
+}
+@media screen and (max-width: 800px){
+    .header-content{
+        padding: 1rem;
+
+        h1{
+            font-size: 40px;
+        }
+    }
+}
